@@ -110,7 +110,6 @@ fn setup(mut commands: Commands) {
     spawn_wall(&mut commands, Vec2::new(-120.0, 0.0), Vec2::new(18.0, 390.0));
     spawn_wall(&mut commands, Vec2::new(210.0, 105.0), Vec2::new(18.0, 200.0));
     spawn_wall(&mut commands, Vec2::new(210.0, -105.0), Vec2::new(18.0, 200.0));
-    spawn_wall(&mut commands, Vec2::new(365.0, 0.0), Vec2::new(18.0, 190.0));
 
     // Room equipment and consoles.
     spawn_rect(
